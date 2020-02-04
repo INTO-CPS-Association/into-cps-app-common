@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-ts --config=jasmine.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^13.7.0"
+    "@types/node": "^13.7.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.2",
+    "jasmine": "^3.5.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.3.0",
+    "ts-node": "^8.6.2"
   }
 }
