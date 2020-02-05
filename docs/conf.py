@@ -22,6 +22,9 @@ copyright = '2020, INTO-CPS-Association'
 author = 'INTO-CPS-Association'
 
 
+master_doc = 'index'
+
+
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
